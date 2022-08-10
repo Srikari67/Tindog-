@@ -1,0 +1,145 @@
+body{
+    font-family:"Montesrrat";
+}
+
+ h2{
+    font-size: 1.5rem;
+ }
+h3{
+   font-size:1.5rem;
+}
+p{
+ color:#8f8f8f;
+}
+h1{
+
+    font-family:"Montesrrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title{
+    background-color: #ff4c68;
+    color:white;
+}
+#title h1{
+    margin: 30px;
+    
+}
+.titleimg{
+    width:60%;
+    
+    transform:rotate(25deg);
+    position: absolute;
+    left:13.5%
+}
+
+
+#cta{
+  background-color: #ff4c68;
+  color:white;
+  text-align: center;
+  padding:7% 15%;
+
+}
+#cta h3{
+    font-family: "Montserrat";
+    line-height: 1.5;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+ 
+.container-fluid{
+    padding-top:50px;
+    padding-bottom:250px;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat";
+}
+ 
+.navbar-brand{
+    font-family: "Ubuntu";
+    
+    font-weight:bold;
+
+}
+
+.nav-link{
+    color:white;
+    font-size: 1.2rem;
+    font-family: "Montserrart";
+}
+.download-button{
+    
+    margin: 8% 10% 5% 5%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+#testimonials{
+    padding:7% 10%;
+    text-align: center ;
+    background-color: #ef8172;
+    color:white;
+   
+}
+.testimonial-text{
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    height:150px;
+    width:150px;
+    border-radius: 60%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding:3% 0;
+}
+.pressimg{
+    width:15%;
+    margin:20px 20px 50px;
+}
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.social{
+    margin:20px 10px;
+
+}
+@media (max-width:992px){
+    #title{
+        text-align: center;
+    }
+.titleimg{
+    position: static;
+    transform: rotate(0);
+} 
+}
+ 
